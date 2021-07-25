@@ -1,0 +1,299 @@
+@media(max-width: 1480px) {
+  .container {
+    max-width: 1200px;
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    padding: 0px 10px;
+  }
+
+  header {
+    background: url(./../images/header_bg.png);
+    width: 100%;
+    padding: 0px 0px 80px;
+  }
+
+  .card__back {
+    bottom: -100%;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  footer {
+    background-position: center;
+  }
+}
+
+@media(max-width: 1199px) {
+  .container {
+    max-width: 992px;
+    width: 992px;
+    padding: 0px 10px;
+  }
+
+  header {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .header__box {
+    padding-top: 100px;
+  }
+
+  .list__link {
+    max-width: 220px;
+  }
+
+  .subtitle {
+    line-height: 50px;
+  }
+
+  .pr__li {
+    padding-top: 50px;
+  }
+
+  .pr__right img {
+    width: 100%;
+  }
+
+  .project {
+    padding-top: 60px;
+  }
+
+  .flex__card {
+    width: calc(100% / 2);
+    height: 300px;
+  }
+
+  footer {
+    padding: 80px 0px 50px 0px;
+  }
+
+  .f__map__list {
+    padding: 55px 0px 50px 0px;
+  }
+
+  form {
+    max-width: 740px;
+  }
+}
+
+@media(max-width: 991px) {
+  .container {
+    max-width: 768px;
+    width: 768px;
+  }
+
+  .header__big__logo {
+    display: none;
+  }
+
+  .header__left {
+    width: 100%;
+  }
+
+  .princip {
+    padding: 64px 0px;
+  }
+
+  .pr__left {
+    width: 100%;
+  }
+
+  .pr__right {
+    width: 70%;
+    padding-top: 20px;
+  }
+
+  .princip__content {
+    flex-direction: column;
+  }
+
+  .header__work {
+    padding-top: 30px;
+  }
+
+  .pr__info {
+    width: max-content;
+  }
+
+  .subtitle {
+    font-size: 40px;
+  }
+
+  .f__map__list {
+    padding: 30px 0px 45px 0px;
+  }
+}
+
+@media(max-width:767px) {
+  .container {
+    max-width: 576px;
+    width: 576px;
+    padding: 0px 25px;
+  }
+
+  header {
+    padding-bottom: 40px;
+  }
+
+  .princip {
+    padding: 30px 0px;
+  }
+
+  .project {
+    padding-top: 30px 0px 20px 0px;
+  }
+
+  .project__title {
+    padding-bottom: 30px;
+  }
+
+  .flex__card {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  .pr__info.d__md__none {
+    display: none;
+  }
+
+  .pr__info.d__sm__block {
+    display: block;
+    margin: 20px auto 0px;
+  }
+
+  .project .subtitle {
+    margin: 0 auto;
+  }
+}
+
+@media(max-width: 575px) {
+  .container {
+    max-width: 320px;
+    width: 320px;
+  }
+
+  .Sidenav {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  .nav__link {
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 50px;
+    color: #FFFFFF;
+  }
+
+  .nav__tel:last-child {
+    margin-left: 10px;
+    padding: 12px 15px;
+  }
+
+  .nav__tel:last-child span {
+    display: none;
+  }
+
+  .header__nav.show {
+    overflow: scroll;
+  }
+
+  h1 img {
+    width: 100%;
+  }
+
+  .header__list li {
+    width: 100%;
+  }
+
+  .list__link {
+    width: 100%;
+    font-size: 17px;
+    line-height: 23px;
+    color: #FFFFFF;
+    margin: 26px 0 0 0;
+  }
+
+  .list__link img {
+    width: 30%;
+    padding-right: 15px;
+  }
+
+  .subtitle {
+    font-size: 30px;
+    line-height: 28px;
+    text-align: center;
+  }
+
+  .pr__li {
+    padding-top: 20px;
+    align-items: start;
+  }
+
+  .pr_li_info {
+    margin-left: 19px;
+  }
+
+  .into__list__li {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .pr__li img {
+    width: 30%;
+  }
+
+  .pr__info_first {
+    margin: 20px 0px 0px 0px;
+  }
+
+  .flex__card {
+    width: 100%;
+  }
+
+  .card__logo {
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+  }
+
+  .flex__card:hover .card__logo {
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    left: 50%;
+  }
+
+  .card__back {
+    display: none;
+  }
+
+  .project {
+    padding-bottom: 50px;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .my__name__form,
+  .my__surname__form,
+  .my__file__form {
+    width: 100%;
+  }
+
+  form input {
+    width: 100%;
+  }
+
+  .for__file {
+    width: 100%;
+  }
+
+  .form__checkbox label {
+    width: 40px;
+  }
+}
